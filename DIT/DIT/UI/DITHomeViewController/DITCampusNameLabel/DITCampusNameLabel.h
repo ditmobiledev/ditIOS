@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DITCampusNameLabel.h
 //  DIT
 //
 //  Created by Stephen Fox on 27/04/2015.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DITHomeViewController : UIViewController
+@interface DITCampusNameLabel : UILabel
 
-
+- (instancetype)initWithFrame:(CGRect)frame andText:(NSString *)text;
 
 @end
-

@@ -7,16 +7,28 @@
 //
 
 #import "DITHomeViewController.h"
+#import "Screen.h"
+#import "DITCampusNameLabel.h"
 
-@interface DITHomeViewController ()
+@interface DITHomeViewController()
+
+@property (nonatomic) DITCampusNameLabel *campusNameLabel;
 
 @end
 
+
+
 @implementation DITHomeViewController
+
+@synthesize campusNameLabel = _campusNameLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    self.campusNameLabel = [[DITCampusNameLabel alloc] initWithFrame:CGRectMake(0, 20, [Screen width], 30) andText:@"Kevin Street"];
+    
+    [self.view addSubview:self.campusNameLabel];
 }
 
 - (void)didReceiveMemoryWarning {

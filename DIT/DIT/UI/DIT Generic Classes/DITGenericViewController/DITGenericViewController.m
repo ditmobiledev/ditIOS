@@ -27,6 +27,11 @@
     
     // Change the status bar to white, to make app pretty.
     [self setNeedsStatusBarAppearanceUpdate];
+    
+    
+    self.backgroundView = [[DITBackgroundView alloc] init];
+    
+    [self.view addSubview:self.backgroundView];
 }
 
 

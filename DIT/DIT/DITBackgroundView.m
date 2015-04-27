@@ -1,0 +1,13 @@
+//
+//  DITBackgroundView.m
+//  DIT
+//
+//  Created by Stephen Fox on 27/04/2015.
+//  Copyright (c) 2015 Stephen Fox. All rights reserved.
+//
+
+#import "DITBackgroundView.h"
+
+@implementation DITBackgroundView
+
+@end

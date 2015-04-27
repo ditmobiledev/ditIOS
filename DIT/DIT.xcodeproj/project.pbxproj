@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		1814C5BC1AEEC1300071123F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5BB1AEEC1300071123F /* main.m */; };
 		1814C5BF1AEEC1300071123F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5BE1AEEC1300071123F /* AppDelegate.m */; };
-		1814C5C21AEEC1300071123F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5C11AEEC1300071123F /* ViewController.m */; };
+		1814C5C21AEEC1300071123F /* DITHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5C11AEEC1300071123F /* DITHomeViewController.m */; };
 		1814C5C51AEEC1300071123F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814C5C31AEEC1300071123F /* Main.storyboard */; };
 		1814C5C71AEEC1300071123F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814C5C61AEEC1300071123F /* Images.xcassets */; };
 		1814C5CA1AEEC1300071123F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1814C5C81AEEC1300071123F /* LaunchScreen.xib */; };
 		1814C5D61AEEC1300071123F /* DITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5D51AEEC1300071123F /* DITTests.m */; };
+		1814C5E41AEEC2480071123F /* DITGenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5E31AEEC2480071123F /* DITGenericViewController.m */; };
+		1814C5E91AEEC2B60071123F /* DITBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5E81AEEC2B60071123F /* DITBackgroundView.m */; };
+		1814C5ED1AEEC2F60071123F /* DITParrallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5EC1AEEC2F60071123F /* DITParrallaxView.m */; };
+		1814C5F11AEEC63F0071123F /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5F01AEEC63F0071123F /* Screen.m */; };
+		1814C5F51AEEC8080071123F /* DITParrallaxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1814C5F41AEEC8080071123F /* DITParrallaxEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		1814C5BB1AEEC1300071123F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1814C5BD1AEEC1300071123F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1814C5BE1AEEC1300071123F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1814C5C01AEEC1300071123F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1814C5C11AEEC1300071123F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1814C5C01AEEC1300071123F /* DITHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DITHomeViewController.h; sourceTree = "<group>"; };
+		1814C5C11AEEC1300071123F /* DITHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DITHomeViewController.m; sourceTree = "<group>"; };
 		1814C5C41AEEC1300071123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1814C5C61AEEC1300071123F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1814C5C91AEEC1300071123F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1814C5CF1AEEC1300071123F /* DITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1814C5D41AEEC1300071123F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1814C5D51AEEC1300071123F /* DITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DITTests.m; sourceTree = "<group>"; };
+		1814C5E21AEEC2480071123F /* DITGenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITGenericViewController.h; sourceTree = "<group>"; };
+		1814C5E31AEEC2480071123F /* DITGenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITGenericViewController.m; sourceTree = "<group>"; };
+		1814C5E71AEEC2B60071123F /* DITBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITBackgroundView.h; sourceTree = "<group>"; };
+		1814C5E81AEEC2B60071123F /* DITBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITBackgroundView.m; sourceTree = "<group>"; };
+		1814C5EB1AEEC2F60071123F /* DITParrallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITParrallaxView.h; sourceTree = "<group>"; };
+		1814C5EC1AEEC2F60071123F /* DITParrallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITParrallaxView.m; sourceTree = "<group>"; };
+		1814C5EF1AEEC63F0071123F /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		1814C5F01AEEC63F0071123F /* Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		1814C5F31AEEC8080071123F /* DITParrallaxEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITParrallaxEffect.h; sourceTree = "<group>"; };
+		1814C5F41AEEC8080071123F /* DITParrallaxEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITParrallaxEffect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +96,8 @@
 		1814C5B81AEEC1300071123F /* DIT */ = {
 			isa = PBXGroup;
 			children = (
-				1814C5BD1AEEC1300071123F /* AppDelegate.h */,
-				1814C5BE1AEEC1300071123F /* AppDelegate.m */,
-				1814C5C01AEEC1300071123F /* ViewController.h */,
-				1814C5C11AEEC1300071123F /* ViewController.m */,
+				1814C5DF1AEEC1BF0071123F /* AppDelegate */,
+				1814C5E11AEEC1D60071123F /* UI */,
 				1814C5C31AEEC1300071123F /* Main.storyboard */,
 				1814C5C61AEEC1300071123F /* Images.xcassets */,
 				1814C5C81AEEC1300071123F /* LaunchScreen.xib */,
@@ -117,6 +130,98 @@
 				1814C5D41AEEC1300071123F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1814C5DF1AEEC1BF0071123F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5BD1AEEC1300071123F /* AppDelegate.h */,
+				1814C5BE1AEEC1300071123F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1814C5E01AEEC1C80071123F /* DITHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5C01AEEC1300071123F /* DITHomeViewController.h */,
+				1814C5C11AEEC1300071123F /* DITHomeViewController.m */,
+			);
+			name = DITHomeViewController;
+			sourceTree = "<group>";
+		};
+		1814C5E11AEEC1D60071123F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5F21AEEC6420071123F /* Screen */,
+				1814C5E51AEEC24D0071123F /* DIT Generic Classes */,
+				1814C5F61AEEC8100071123F /* Parrallax  */,
+				1814C5EA1AEEC2BB0071123F /* DITBackgroundView */,
+				1814C5E01AEEC1C80071123F /* DITHomeViewController */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1814C5E51AEEC24D0071123F /* DIT Generic Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5E61AEEC25D0071123F /* DITGenericViewController */,
+			);
+			name = "DIT Generic Classes";
+			sourceTree = "<group>";
+		};
+		1814C5E61AEEC25D0071123F /* DITGenericViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5E21AEEC2480071123F /* DITGenericViewController.h */,
+				1814C5E31AEEC2480071123F /* DITGenericViewController.m */,
+			);
+			name = DITGenericViewController;
+			sourceTree = "<group>";
+		};
+		1814C5EA1AEEC2BB0071123F /* DITBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5E71AEEC2B60071123F /* DITBackgroundView.h */,
+				1814C5E81AEEC2B60071123F /* DITBackgroundView.m */,
+			);
+			name = DITBackgroundView;
+			sourceTree = "<group>";
+		};
+		1814C5EE1AEEC2FA0071123F /* DITParrallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5EB1AEEC2F60071123F /* DITParrallaxView.h */,
+				1814C5EC1AEEC2F60071123F /* DITParrallaxView.m */,
+			);
+			name = DITParrallaxView;
+			sourceTree = "<group>";
+		};
+		1814C5F21AEEC6420071123F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5EF1AEEC63F0071123F /* Screen.h */,
+				1814C5F01AEEC63F0071123F /* Screen.m */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+		1814C5F61AEEC8100071123F /* Parrallax  */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5F71AEEC84C0071123F /* DITParrallaxEffect */,
+				1814C5EE1AEEC2FA0071123F /* DITParrallaxView */,
+			);
+			name = "Parrallax ";
+			sourceTree = "<group>";
+		};
+		1814C5F71AEEC84C0071123F /* DITParrallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1814C5F31AEEC8080071123F /* DITParrallaxEffect.h */,
+				1814C5F41AEEC8080071123F /* DITParrallaxEffect.m */,
+			);
+			name = DITParrallaxEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1814C5C21AEEC1300071123F /* ViewController.m in Sources */,
+				1814C5ED1AEEC2F60071123F /* DITParrallaxView.m in Sources */,
+				1814C5F11AEEC63F0071123F /* Screen.m in Sources */,
+				1814C5C21AEEC1300071123F /* DITHomeViewController.m in Sources */,
 				1814C5BF1AEEC1300071123F /* AppDelegate.m in Sources */,
+				1814C5F51AEEC8080071123F /* DITParrallaxEffect.m in Sources */,
+				1814C5E41AEEC2480071123F /* DITGenericViewController.m in Sources */,
 				1814C5BC1AEEC1300071123F /* main.m in Sources */,
+				1814C5E91AEEC2B60071123F /* DITBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Stephen Fox. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DITHomeViewController.h"
 
-@interface ViewController ()
+@interface DITHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DITHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

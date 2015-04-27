@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+
+// DITBackgroundView contains an image of a campus(parrallax effect) and a blue overlay.
 @interface DITBackgroundView : UIView
 
 @end

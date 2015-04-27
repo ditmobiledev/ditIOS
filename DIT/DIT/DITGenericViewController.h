@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 
+// Any class that subclasses this will receive a backgroundView (image of campus with blue overlay)
 @interface DITGenericViewController : UIViewController
+
 
 
 @end

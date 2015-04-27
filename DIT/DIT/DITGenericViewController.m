@@ -7,7 +7,28 @@
 //
 
 #import "DITGenericViewController.h"
+#import "DITBackgroundView.h"
+
+@interface DITGenericViewController()
+
+@property(nonatomic) DITBackgroundView *backgroundView;
+
+@end
+
 
 @implementation DITGenericViewController
+
+@synthesize backgroundView = _backgroundView;
+
+
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    // Change the status bar to white, to make app pretty.
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+
 
 @end

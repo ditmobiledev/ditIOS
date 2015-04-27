@@ -12,23 +12,31 @@
 @interface DITParrallaxView()
 
 @property(nonatomic) NSMutableArray *campusImageNames;
-@property(nonatomic) UIImage *imageForParrallaxView;
+@property(nonatomic) UIImageView *imageViewForParrallaxView;
 
 
+- (void) addCampusImageToView:(UIImage *)image;
+- (void) changeCampusImageViewWithImage:(UIImage *)image;
+- (void) determineImageForCampusImageView;
 
 @end
+
 
 
 @implementation DITParrallaxView
 
 CGFloat parrallaxEffectRelativeValue = 30;
 @synthesize campusImageNames = _campusImageNames;
-@synthesize imageForParrallaxView = _imageForParrallaxView;
+@synthesize imageViewForParrallaxView = _imageViewForParrallaxView;
+
+NSString *currentCampusName = @"Kevin Street";
 
 
 - (instancetype)init
 {
     if (self == [super initWithFrame:CGRectMake(0, 0, [Screen width], [Screen width])]) {
+        
+        self.imageViewForParrallaxView = [UIImageView alloc];
     }
     return self;
 }
@@ -36,7 +44,7 @@ CGFloat parrallaxEffectRelativeValue = 30;
 
 
 
--(void)setCampusImageNames:(NSMutableArray *)campusImageNames {
+- (void)setCampusImageNames:(NSMutableArray *)campusImageNames {
     _campusImageNames = [[NSMutableArray alloc] initWithObjects:
                          @"KevinStreet",
                          @"AungierStreet",
@@ -44,6 +52,35 @@ CGFloat parrallaxEffectRelativeValue = 30;
                          @"Grangegorman",
                          @"CathalBrughaStreet", nil];
 }
+
+
+
+- (void)determineImageForCampusImageView {
+    UIImage *campusImage = [[UIImage alloc] initWithContentsOfFile:_campusImageNames[0]];
+    
+    [self changeCampusImageViewWithImage:campusImage];
+}
+
+
+- (void)addCampusImageToView:(UIImage *)image {
+    
+    self.imageViewForParrallaxView = [[UIImageView alloc] initWithFrame:CGRectMake(-parrallaxEffectRelativeValue,
+                                                                                   parrallaxEffectRelativeValue,
+                                                                                   [Screen width] * 2,
+                                                                                   [Screen height] * 2)];
+    
+    self.imageViewForParrallaxView.image = image;
+    self.imageViewForParrallaxView.center = self.center;
+    
+}
+
+
+- (void)changeCampusImageViewWithImage:(UIImage *)image {
+    [self addCampusImageToView:image];
+}
+
+
+
 
 
 @end

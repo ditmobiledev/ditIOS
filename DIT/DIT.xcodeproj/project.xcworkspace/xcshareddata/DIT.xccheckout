@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>26894015-21DB-4038-91AD-D4BF187DECE1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>DIT</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>061C60ABB2A4696ABD7B6856B6D236FC5096F04A</key>
 		<string>https://github.com/ditmobiledev/ditIOS</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DIT/DIT.xcodeproj/project.xcworkspace</string>
+	<string>DIT/DIT.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>061C60ABB2A4696ABD7B6856B6D236FC5096F04A</key>

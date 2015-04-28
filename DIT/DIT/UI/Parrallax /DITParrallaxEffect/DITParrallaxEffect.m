@@ -46,9 +46,8 @@
         [self setVerticalEffect];
     }
     
-    
+    [view addMotionEffect:self.motionEffectGroup];
 
-    
 }
 
 
